@@ -6,7 +6,6 @@ import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
-import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
@@ -33,15 +32,8 @@ public class SwaggerConfig {
 		apiInfoBuilder.title("Análise de Crédito");
 		apiInfoBuilder.description("Api para análise de crédito");
 		apiInfoBuilder.version("1.0");
-		apiInfoBuilder.contact(this.contato());
 
 		return apiInfoBuilder;
 
-	}
-
-	private Contact contato() {
-
-		return new Contact("André Rafael Mezzalira	", "https://www.linkedin.com/in/andrerafaelmezzalira/",
-				"andrerafaelmezzalira@gmail.com");
 	}
 }
