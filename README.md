@@ -18,12 +18,11 @@ mvn install
 
 ```
 
-- Para popular alguns dados, execute a classe de Teste localizado em src/test/java de nome back.BackApplicationTests.java
+- Para popular alguns dados, execute a classe de Teste localizada em src/test/java de nome back.BackApplicationTests.java
 
-- Para subir a aplicação, basta rodar a classe principal back.BackApplication.java
+- Para subir a aplicação, basta rodar a classe principal localizada em src/main/java de nome back.BackApplication.java
  
-## Acessando 
+## Acessando documentação Swagger 
 
-# Documentação Swagger
 - http://localhost:8080/swagger-ui.html
 
