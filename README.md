@@ -18,6 +18,8 @@ mvn spring-boot:run
 
 ```
 
+- Para popular a base de dados, basta rodar a classe de teste.
+
 ## Acessando documentação Swagger 
 - http://localhost:8080/swagger-ui.html
 

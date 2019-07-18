@@ -30,6 +30,7 @@ public class BackApplicationTests {
 		service.deleteAll();
 
 		service.save(new Person("Lucas", "1", "28", "M", "solteiro", "SC", "0", "2500"));
+		service.save(new Person("Ana", "2", "17", "F", "solteiro", "SP", "0", "1000"));
 
 	}
 
