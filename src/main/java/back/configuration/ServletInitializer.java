@@ -1,7 +1,9 @@
-package back;
+package back.configuration;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+
+import back.BackApplication;
 
 public class ServletInitializer extends SpringBootServletInitializer {
 

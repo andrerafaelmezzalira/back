@@ -9,9 +9,8 @@ CREATE TABLE person
   state text,
   dependents text,
   income text,
+  message text,
+  result text,
   CONSTRAINT pk_person PRIMARY KEY (id)
 );
-
-ALTER TABLE person ADD
-  CONSTRAINT uq_person_name UNIQUE (cpf);
 

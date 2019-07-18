@@ -1,4 +1,4 @@
-package back.person;
+package back.domain.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -27,6 +27,25 @@ public class Person {
 	private String dependents;
 
 	private String income;
+
+	private String result;
+
+	private String message;
+
+	public Person() {
+	}
+
+	public Person(String name, String cpf, String age, String sex, String civilStatus, String state, String dependents,
+			String income) {
+		this.name = name;
+		this.cpf = cpf;
+		this.age = age;
+		this.sex = sex;
+		this.civilStatus = civilStatus;
+		this.state = state;
+		this.dependents = dependents;
+		this.income = income;
+	}
 
 	public Integer getId() {
 		return id;
@@ -98,5 +117,21 @@ public class Person {
 
 	public String getState() {
 		return state;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setResult(String result) {
+		this.result = result;
+	}
+
+	public String getResult() {
+		return result;
 	}
 }
